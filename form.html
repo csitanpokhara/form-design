@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Design</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="" class="form">
+                <h1 class="form-title">Sign Up</h1>
+                <div class="form-group has-error">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                    <span class="error-msg">This field is required.</span>
+                </div>
+                <div class="form-group has-error">
+                    <label for=" email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                    <span class="error-msg">This field is required.</span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                    <span class="error-msg">This field is required.</span>
+                </div>
+                <div class="form-group">
+                    <div class="form-inline-group">
+                        <input type="checkbox" checked name="agree" id="agree" value="1">
+                        <label for="agree">I agree to the terms and conditions.</label>
+                        <span class="error-msg">This field is required.</span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                    <p class="form-link">
+                        <span>Already have an account? </span>
+                        <a href="#">Login </a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
